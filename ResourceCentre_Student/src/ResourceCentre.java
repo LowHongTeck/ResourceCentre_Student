@@ -37,7 +37,6 @@ public class ResourceCentre {
 
 				if (itemType == 1) {
 					// Add a camcorder
-					
 					Camcorder cc = inputCamcorder();
 					ResourceCentre.addCamcorder(camcorderList, cc);
 
@@ -158,6 +157,7 @@ public class ResourceCentre {
 	}
 
 	//================================= Option 2 Add an item (CRUD - Create) =================================
+	
 	public static Camcorder inputCamcorder() {
 		String tag = Helper.readString("Enter asset tag > ");
 		String description = Helper.readString("Enter description > ");
@@ -167,6 +167,7 @@ public class ResourceCentre {
 		return cc;
 		
 	}
+	
 	public static void addCamcorder(ArrayList<Camcorder> camcorderList, Camcorder cc) {
 		
 		camcorderList.add(cc);
@@ -174,14 +175,26 @@ public class ResourceCentre {
 	}
 	
 	public static Chromebook inputChromebook() {	
-		Chromebook cb =null;
+		
+		String tags = Helper.readString("Enter asset tag > ");
+		String descriptions = Helper.readString("Enter description > ");
+		String os = Helper.readString("Enter operating system > ");
+		
+		
+		Chromebook cb = new Chromebook(tags, descriptions, os);
 		// write your code here
 		return cb;
 		
 	}	
 	public static void addChromebook(ArrayList<Chromebook> chromebookList, Chromebook cb) {
 		// write your code here
+		
+		chromebookList.add(cb);
+		System.out.println("Chromebook added");
+		
 	}
+		
+
 	
 	//================================= Option 3 Loan an item (CRUD - Update) =================================
 	public static boolean doLoanCamcorder(ArrayList<Camcorder> camcorderList, String tag, String dueDate) {
