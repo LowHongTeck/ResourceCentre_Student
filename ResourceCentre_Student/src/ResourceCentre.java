@@ -24,7 +24,9 @@ public class ResourceCentre {
 				ResourceCentre.viewAllCamcorder(camcorderList);
 				ResourceCentre.viewAllChromebook(chromebookList);
 
-			} else if (option == 2) {
+			}
+			
+			else if (option == 2) {
 				// Add a new item
 				ResourceCentre.setHeader("ADD");			
 				ResourceCentre.setHeader("ITEM TYPES");
@@ -35,6 +37,7 @@ public class ResourceCentre {
 
 				if (itemType == 1) {
 					// Add a camcorder
+					
 					Camcorder cc = inputCamcorder();
 					ResourceCentre.addCamcorder(camcorderList, cc);
 
