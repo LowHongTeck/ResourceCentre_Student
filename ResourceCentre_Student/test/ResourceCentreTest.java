@@ -24,8 +24,12 @@ public class ResourceCentreTest {
 		// prepare test data
 		cc1 = new Camcorder("CC0011", "Nikon HDSLR", 40);
 		cc2 = new Camcorder("CC0012", "Sony DSC-RX100M7", 20);
-		cb1 = new Chromebook("CB0011", "My Google Chromebook 1st", "Mac OS");
-		cb2 = new Chromebook("CB0012", "SAMSUNG Chromebook 4+", "Win 10");
+		// cb1 = new Chromebook("CB0011", "My Google Chromebook 1st", "Mac OS");
+		// cb2 = new Chromebook("CB0012", "SAMSUNG Chromebook 4+", "Win 10");
+
+		// This is for remote testing, please ignore this.
+		cb1 = new Chromebook("CB001", "ASUS Chromebook", "Win 10");
+		cb2 = new Chromebook("CB002", "HP Chromebook", "Win 10");
 
 		camcorderList= new ArrayList<Camcorder>();
 		chromebookList= new ArrayList<Chromebook>();
