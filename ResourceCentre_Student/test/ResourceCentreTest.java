@@ -29,7 +29,7 @@ public class ResourceCentreTest {
 
 		// This is for remote testing, please ignore this.
 		cb1 = new Chromebook("CB001", "ASUS Chromebook", "Win 10");
-		cb2 = new Chromebook("CB002", "HP Chromebook", "Win 10");
+		cb2 = new Chromebook("CB002", "HP Chromebook", "Win XP");
 
 		camcorderList= new ArrayList<Camcorder>();
 		chromebookList= new ArrayList<Chromebook>();
