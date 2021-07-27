@@ -81,7 +81,12 @@ public class ResourceCentreTest {
 	@Test
 	public void testRetrieveAllChromebook() {
 		//fail("Not yet implemented");
+		//Test if Item list only 
+	
+		
+		
 		// write your code here
+		
 	}
 
 	@Test
