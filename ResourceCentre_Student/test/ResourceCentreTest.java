@@ -83,6 +83,11 @@ public class ResourceCentreTest {
 		//fail("Not yet implemented");
 		//Test if Item list is not null but empty, so that can add a new item
 		assertNotNull ("Test if there is valid Chromebook arraylist to add to", chromebookList);
+		
+		//Test if the list of chromebook retrieved from the SourceCentre is empty
+		String allChromebook = ResourceCentre.retrieveAllChromebook(chromebookList);
+		String testOutput = "" ;
+		assertEquals("Check that ViewAllChromebooklist is empty", testOutput, allChromebook);
 	
 		
 		
