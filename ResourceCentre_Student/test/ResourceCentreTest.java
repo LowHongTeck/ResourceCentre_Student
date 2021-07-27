@@ -101,7 +101,7 @@ public class ResourceCentreTest {
 
 		testOutput += String.format("%-10s %-30s %-10s %-10s %-20d\n","CB002", "HP Chromebook", "Yes", "", "Win XP");
 	
-		assertEquals("Check that ViewAllCamcorderlist", testOutput, allChromebook);
+		assertEquals("Check that ViewAllChromebooklist", testOutput, allChromebook);
 	
 	
 		
