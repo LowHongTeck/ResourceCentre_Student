@@ -258,6 +258,7 @@ public class ResourceCentre {
 				
 			}
 		}
+		
 		return isReturned;
 		
 	}
@@ -268,8 +269,12 @@ public class ResourceCentre {
 		
 		if (isReturned == false) {
 			System.out.println("Invalid asset tag");
-		} else {
+			
+		} 
+		
+		else {
 			System.out.println("Camcorder " + tag + " returned");
+			
 		}
 	}
 
