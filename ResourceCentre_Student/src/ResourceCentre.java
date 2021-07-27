@@ -241,7 +241,7 @@ public class ResourceCentre {
 		}
 	}
 	
-	// Done by Friday
+	// Done by Friday 
 	public static boolean doLoanChromebook(ArrayList<Chromebook> chromebookList, String tag, String dueDate) {
 		boolean isLoaned = false;
 
@@ -257,7 +257,7 @@ public class ResourceCentre {
 		return isLoaned;
 	}
 
-	// Done by Friday
+	// Done by Friday 
 	public static void loanChromebook(ArrayList<Chromebook> chromebookList) {
 		ResourceCentre.viewAllChromebook(chromebookList);
 		String tag = Helper.readString("Enter asset tag > ");
